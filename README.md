@@ -10,7 +10,7 @@ Penjelasan:
 User menginputkan email dan password, lalu menekan tombol Login. Data ini akan dikirimkan ke API CodeIgniter untuk diverifikasi.
 
 Potongan Kode Login
-LoginBloc.login(
+```LoginBloc.login(
   email: _emailTextboxController.text,
   password: _passwordTextboxController.text,
 ).then((value) async {
@@ -29,7 +29,7 @@ LoginBloc.login(
       ),
     );
   }
-});
+});```
 
 b. Jika Login Gagal / Berhasil
 Screenshot:
@@ -146,8 +146,8 @@ class ApiUrl {
 }
 
 # 9. Cara Menjalankan
-CI4
+CI4:<\br>
 php spark serve --host 192.168.1.15
 
-Flutter (Chrome)
+Flutter (Chrome):<\br>
 flutter run -d chrome --web-browser-flag "--disable-web-security"
