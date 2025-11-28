@@ -150,8 +150,8 @@ File: lib/helpers/api_url.dart
 }
 ```
 # 9. Cara Menjalankan
-**CI4:<\br>**
+**CI4:<br>**
 php spark serve --host 192.168.1.15
 
-**Flutter (Chrome):<\br>**
+**Flutter (Chrome):<br>**
 flutter run -d chrome --web-browser-flag "--disable-web-security"
